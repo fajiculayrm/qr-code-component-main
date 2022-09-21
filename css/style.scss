@@ -30,35 +30,28 @@ html {
 
         main {
             background-color: var(--white);
+            text-align: center;
             width: 90%;
             max-width: 320px;
-            border-radius: 1rem;
+            border-radius: 1.2rem;
             padding: 1em;
 
-            .qr-image-container {
-                display: flex;
-                border-radius: 1rem;
-                overflow: hidden;
-
-                img {
-                    width: 100%;
-                }
+            img {
+                border-radius: 0.6rem;
+                width: 100%;
             }
 
-            .information-container {
-                text-align: center;
-                padding: 1rem;
+            h1 {
+                margin-top: 1rem;
+                font-size: 1.5rem;
+                color: var(--dark-blue);
+            }
 
-                h1 {
-                    font-size: 1.5rem;
-                    color: var(--dark-blue);
-                }
-
-                p {
-                    color: var(--grayish-blue);
-                    font-size: 1rem;
-                    margin-top: 1em;
-                }
+            p {
+                margin: 1rem;
+                color: var(--grayish-blue);
+                font-size: 1rem;
+                margin-top: 1em;
             }
         }
 
