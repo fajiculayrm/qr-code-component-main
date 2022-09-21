@@ -19,55 +19,55 @@
 html {
     font-family: var(--outfit);
     font-size: 15px;
-}
 
-body {
-    background-color: var(--light-gray);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    body {
+        background-color: var(--light-gray);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 
-    main {
-        background-color: var(--white);
-        width: 90%;
-        max-width: 320px;
-        border-radius: 1rem;
-        padding: 1em;
+        main {
+            background-color: var(--white);
+            width: 90%;
+            max-width: 320px;
+            border-radius: 1rem;
+            padding: 1em;
 
-        .qr-image-container {
-            display: flex;
+            .qr-image-container {
+                display: flex;
 
-            img {
-                border-radius: 1rem;
-                width: 100%;
+                img {
+                    border-radius: 1rem;
+                    width: 100%;
+                }
+            }
+
+            .information-container {
+                text-align: center;
+                padding: 1rem;
+
+                h1 {
+                    font-size: 1.5rem;
+                }
+
+                p {
+                    color: var(--grayish-blue);
+                    font-size: 1rem;
+                    margin-top: 1em;
+                }
             }
         }
 
-        .information-container {
-            text-align: center;
-            padding: 1rem;
-
-            h1 {
-                font-size: 1.5rem;
+        footer {
+            .attribution {
+                font-size: 11px;
+                text-align: center;
             }
-
-            p {
-                color: var(--grayish-blue);
-                font-size: 1rem;
-                margin-top: 1em;
+            .attribution a {
+                color: hsl(228, 45%, 44%);
             }
-        }
-    }
-
-    footer {
-        .attribution {
-            font-size: 11px;
-            text-align: center;
-        }
-        .attribution a {
-            color: hsl(228, 45%, 44%);
         }
     }
 }

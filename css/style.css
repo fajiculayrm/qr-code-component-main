@@ -17,8 +17,7 @@ html {
   font-family: var(--outfit);
   font-size: 15px;
 }
-
-body {
+html body {
   background-color: var(--light-gray);
   min-height: 100vh;
   display: flex;
@@ -26,36 +25,36 @@ body {
   justify-content: center;
   align-items: center;
 }
-body main {
+html body main {
   background-color: var(--white);
   width: 90%;
   max-width: 320px;
   border-radius: 1rem;
   padding: 1em;
 }
-body main .qr-image-container {
+html body main .qr-image-container {
   display: flex;
 }
-body main .qr-image-container img {
+html body main .qr-image-container img {
   border-radius: 1rem;
   width: 100%;
 }
-body main .information-container {
+html body main .information-container {
   text-align: center;
   padding: 1rem;
 }
-body main .information-container h1 {
+html body main .information-container h1 {
   font-size: 1.5rem;
 }
-body main .information-container p {
+html body main .information-container p {
   color: var(--grayish-blue);
   font-size: 1rem;
   margin-top: 1em;
 }
-body footer .attribution {
+html body footer .attribution {
   font-size: 11px;
   text-align: center;
 }
-body footer .attribution a {
+html body footer .attribution a {
   color: hsl(228deg, 45%, 44%);
 }/*# sourceMappingURL=style.css.map */
