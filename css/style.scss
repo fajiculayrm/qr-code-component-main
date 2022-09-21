@@ -32,12 +32,12 @@ html {
             background-color: var(--white);
             width: 90%;
             max-width: 320px;
-            border-radius: 1.2rem;
+            border-radius: 1rem;
             padding: 1em;
 
             .qr-image-container {
                 display: flex;
-                border-radius: 1.2rem;
+                border-radius: 1rem;
                 overflow: hidden;
 
                 img {
@@ -51,6 +51,7 @@ html {
 
                 h1 {
                     font-size: 1.5rem;
+                    color: var(--dark-blue);
                 }
 
                 p {
