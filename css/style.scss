@@ -32,14 +32,15 @@ html {
             background-color: var(--white);
             width: 90%;
             max-width: 320px;
-            border-radius: 1rem;
+            border-radius: 1.2rem;
             padding: 1em;
 
             .qr-image-container {
                 display: flex;
+                border-radius: 1.2rem;
+                overflow: hidden;
 
                 img {
-                    border-radius: 1rem;
                     width: 100%;
                 }
             }
